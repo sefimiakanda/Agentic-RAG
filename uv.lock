@@ -2054,6 +2054,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "chromadb" },
+    { name = "huggingface-hub" },
     { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-community" },
@@ -2070,6 +2071,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "chromadb", specifier = ">=1.5.9" },
+    { name = "huggingface-hub", specifier = ">=1.32.0" },
     { name = "ipykernel", specifier = ">=7.3.0" },
     { name = "langchain", specifier = ">=1.4.2" },
     { name = "langchain-community", specifier = ">=0.4.2" },
