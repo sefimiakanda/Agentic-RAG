@@ -1,17 +1,19 @@
 [project]
 name = "projetcrag"
 version = "0.1.0"
-description = "Add your description here"
+description = "Assistant RAG local pour interroger des documents PDF"
 readme = "README.md"
 authors = [
     { name = "fidelemiakanda", email = "sefimiakanda@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "accelerate>=1.15.0",
     "chromadb>=1.5.9",
     "huggingface-hub>=1.32.0",
     "ipykernel>=7.3.0",
     "langchain>=1.4.2",
+    "langchain-classic>=1.0.8",
     "langchain-community>=0.4.2",
     "langchain-huggingface>=1.2.2",
     "langchain-openai>=1.6.3",

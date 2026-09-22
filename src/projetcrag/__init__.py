@@ -1,2 +1,11 @@
+"""Assistant RAG pour interroger un PDF."""
+
+
 def main() -> None:
-    print("Hello from projetcrag!")
+    """Point d'entrée installé par ``projetcrag``."""
+    from .cli import main as cli_main
+
+    cli_main()
+
+
+__all__ = ["main"]
